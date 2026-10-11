@@ -1,0 +1,15 @@
+{
+  "name": "404-export",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Load a folder of samples onto an SP-404SX SD card, using Super Pads' card-writing core.",
+  "license": "MIT",
+  "bin": { "sp404-load": "sp404-load.js" },
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "super-pads": "github:MatthewCallis/super-pads#55d804c79aa12ecc0f7163680eb4ae795ef08783"
+  }
+}
